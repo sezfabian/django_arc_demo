@@ -1,7 +1,7 @@
 from django.http import JsonResponse
 from django_arc_monitize_api.decorators import monetize
 
-def free_view(request):
+async def free_view(request):
     return JsonResponse({'message': 'Hello, World! This is a free view.'})
 
 @monetize('0.001')
@@ -14,8 +14,7 @@ async def cheap_view(request):
         "price_usdc": '0.001',
     })
 
-
-@monetize('1')
+@monetize('0.1')
 async def expensive_view(request):
     return JsonResponse({
         "message": "Hello World (paid expensive view)",
