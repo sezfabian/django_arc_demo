@@ -313,3 +313,150 @@
 |---|---|---:|---:|
 | `2026-04-25T17:14:34.605642+00:00` | `2026-04-25T17:16:37.675262+00:00` | 61 | 4 |
 
+
+## Run `2026-04-25T17:20:28.397149+00:00`
+
+- Base URL: `http://127.0.0.1:8000`
+- Chain: `arcTestnet`
+- Buyer: `0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8`
+
+### Endpoint `/api/free/`
+
+| Log # | Attempt | Timestamp (UTC) | Status | Paid Amount (USDC) | Transaction | Response / Error |
+|---:|---|---|---|---|---|---|
+| 1 | 1/5 | "2026-04-25T17:20:28.454572+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 2 | 2/5 | "2026-04-25T17:20:29.215998+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 3 | 3/5 | "2026-04-25T17:20:29.977977+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 4 | 4/5 | "2026-04-25T17:20:30.740334+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 5 | 5/5 | "2026-04-25T17:20:31.505244+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+
+- Total calls: `5`
+- Success: `5`
+- Failure: `0`
+
+
+## Run `2026-04-25T17:21:16.164482+00:00`
+
+- Base URL: `http://127.0.0.1:8000`
+- Chain: `arcTestnet`
+- Buyer: `0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8`
+
+### Endpoint `/api/free/`
+
+| Log # | Attempt | Timestamp (UTC) | Status | Paid Amount (USDC) | Transaction | Response / Error |
+|---:|---|---|---|---|---|---|
+| 1 | 1/5 | "2026-04-25T17:21:16.219145+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 2 | 2/5 | "2026-04-25T17:21:16.981615+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 3 | 3/5 | "2026-04-25T17:21:17.746706+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 4 | 4/5 | "2026-04-25T17:21:18.511959+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 5 | 5/5 | "2026-04-25T17:21:19.269772+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+
+- Total calls: `5`
+- Success: `5`
+- Failure: `0`
+
+
+## Run `2026-04-25T17:36:51.838570+00:00`
+
+- Base URL: `http://127.0.0.1:8000`
+- Chain: `arcTestnet`
+- Buyer: `0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8`
+
+### Endpoint `/api/free/`
+
+| Log # | Attempt | Timestamp (UTC) | Status | Paid Amount (USDC) | Transaction | Response / Error |
+|---:|---|---|---|---|---|---|
+| 1 | 1/5 | "2026-04-25T17:36:51.895534+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 2 | 2/5 | "2026-04-25T17:36:52.658223+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 3 | 3/5 | "2026-04-25T17:36:53.417826+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 4 | 4/5 | "2026-04-25T17:36:54.177892+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+| 5 | 5/5 | "2026-04-25T17:36:54.941250+00:00" | 200 | "0" | "N/A" | {"message": "Hello, World! This is a free view."} |
+
+- Total calls: `5`
+- Success: `5`
+- Failure: `0`
+
+### Endpoint `/api/cheap/`
+
+| Log # | Attempt | Timestamp (UTC) | Status | Paid Amount (USDC) | Transaction | Response / Error |
+|---:|---|---|---|---|---|---|
+| 6 | 1/50 | "2026-04-25T17:36:55.702834+00:00" | 200 | "0.001000" | "5bc7095b-98f4-479e-8aaa-e14c45045527" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 7 | 2/50 | "2026-04-25T17:36:57.998313+00:00" | 200 | "0.001000" | "c0f2f10d-911c-46ca-ae85-f860e8384ba5" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 8 | 3/50 | "2026-04-25T17:37:00.013131+00:00" | 200 | "0.001000" | "fd5f5b46-e452-4b97-88e2-b717ab5481c8" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 9 | 4/50 | "2026-04-25T17:37:02.110271+00:00" | 200 | "0.001000" | "ea1504c6-aafc-4aac-87e4-14d9f0b10080" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 10 | 5/50 | "2026-04-25T17:37:04.092026+00:00" | 200 | "0.001000" | "f4a48019-226a-4f46-afbe-504b130c866c" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 11 | 6/50 | "2026-04-25T17:37:06.285345+00:00" | 200 | "0.001000" | "50bccdbf-6f71-4404-95f0-1730ae170f9b" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 12 | 7/50 | "2026-04-25T17:37:08.216195+00:00" | 200 | "0.001000" | "1dc60ae2-ebd5-4b48-8bf3-a8b8aa9ae0c2" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 13 | 8/50 | "2026-04-25T17:37:10.135046+00:00" | 200 | "0.001000" | "ac48cb49-6625-4621-96cf-dbaad6e8c5b8" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 14 | 9/50 | "2026-04-25T17:37:11.933721+00:00" | 200 | "0.001000" | "2d7aae0b-8d68-4222-a6f7-72b4ac687b0e" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 15 | 10/50 | "2026-04-25T17:37:13.813718+00:00" | 200 | "0.001000" | "2f10ba4d-ba2e-4478-9087-4bde11dd720c" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 16 | 11/50 | "2026-04-25T17:37:15.766169+00:00" | 200 | "0.001000" | "aaf092d2-b6ce-48ae-8d16-7c967ebf4590" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 17 | 12/50 | "2026-04-25T17:37:17.653020+00:00" | 200 | "0.001000" | "5ae2f221-d116-438b-913b-5e4a3d0f015e" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 18 | 13/50 | "2026-04-25T17:37:19.630277+00:00" | 200 | "0.001000" | "43b19014-b13d-4c31-8fbb-53ad882a9830" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 19 | 14/50 | "2026-04-25T17:37:21.558291+00:00" | 200 | "0.001000" | "7dae1ead-0220-4140-8b32-b888b73b71a3" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 20 | 15/50 | "2026-04-25T17:37:23.461109+00:00" | 200 | "0.001000" | "de6bb4cb-7190-4267-939f-5886bb103b5d" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 21 | 16/50 | "2026-04-25T17:37:25.247007+00:00" | 200 | "0.001000" | "b39d628f-d284-4a7e-8ccb-652e6b586a7a" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 22 | 17/50 | "2026-04-25T17:37:27.400231+00:00" | 200 | "0.001000" | "a8158fcf-8c93-46ec-88ad-1973a9593a12" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 23 | 18/50 | "2026-04-25T17:37:29.228715+00:00" | 200 | "0.001000" | "0440bbc0-a528-4a08-85dd-a83b7604a981" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 24 | 19/50 | "2026-04-25T17:37:31.169457+00:00" | 200 | "0.001000" | "cb9da2e6-cbd4-4047-8019-9fcee50289b0" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 25 | 20/50 | "2026-04-25T17:37:32.911352+00:00" | 200 | "0.001000" | "6727e538-b0f5-4bc6-bafd-8673c5247af2" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 26 | 21/50 | "2026-04-25T17:37:35.119850+00:00" | 200 | "0.001000" | "44a945d8-7c95-4a9a-be51-389099bb03fd" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 27 | 22/50 | "2026-04-25T17:37:37.050539+00:00" | 200 | "0.001000" | "84b1c2e3-1980-4aa9-a065-c6502fe96c01" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 28 | 23/50 | "2026-04-25T17:37:39.165341+00:00" | 200 | "0.001000" | "679eaa9a-baf3-4f9c-a532-f4b7bc17e0bc" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 29 | 24/50 | "2026-04-25T17:37:40.994169+00:00" | 200 | "0.001000" | "555012b7-972f-4e4b-a27c-32f675f916fb" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 30 | 25/50 | "2026-04-25T17:37:42.844715+00:00" | 200 | "0.001000" | "8f6e658e-2955-4b82-8de4-833d70094d2d" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 31 | 26/50 | "2026-04-25T17:37:44.646462+00:00" | 200 | "0.001000" | "193680f1-579a-423f-946e-d6276c782502" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 32 | 27/50 | "2026-04-25T17:37:46.557646+00:00" | 200 | "0.001000" | "39061d56-6ff5-4a72-a0dd-b3c2c95f45d5" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 33 | 28/50 | "2026-04-25T17:37:48.284020+00:00" | 200 | "0.001000" | "4415eaec-dd21-4409-884e-2699612d766f" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 34 | 29/50 | "2026-04-25T17:37:50.228069+00:00" | 200 | "0.001000" | "616eb1fd-4033-4469-b43a-85376153c61d" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 35 | 30/50 | "2026-04-25T17:37:52.094118+00:00" | 200 | "0.001000" | "a29be159-9b5e-4171-8348-69f26ef7d1d6" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 36 | 31/50 | "2026-04-25T17:37:53.998025+00:00" | 200 | "0.001000" | "091f342a-ca45-48a1-8d3f-31399fc9bcb9" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 37 | 32/50 | "2026-04-25T17:37:55.970083+00:00" | 200 | "0.001000" | "414d8273-938c-4ef4-80c2-687e0a5a7c90" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 38 | 33/50 | "2026-04-25T17:37:58.842029+00:00" | 200 | "0.001000" | "ec8fb3f0-accd-486e-a253-7b367de5960b" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 39 | 34/50 | "2026-04-25T17:38:00.646960+00:00" | 200 | "0.001000" | "0f208db5-f638-4da7-b16a-6fea6a05ec74" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 40 | 35/50 | "2026-04-25T17:38:02.496656+00:00" | 200 | "0.001000" | "7b85e8da-1df3-4812-858f-3a397bd12cd3" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 41 | 36/50 | "2026-04-25T17:38:04.312925+00:00" | 200 | "0.001000" | "28c1805c-d55e-4309-84c4-cb1058a423bc" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 42 | 37/50 | "2026-04-25T17:38:05.919555+00:00" | 200 | "0.001000" | "56d3e78c-c439-4bda-aff9-0cabd276dfd7" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 43 | 38/50 | "2026-04-25T17:38:07.983674+00:00" | 200 | "0.001000" | "6347ea62-092d-4ae4-b154-d0724f4865f3" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 44 | 39/50 | "2026-04-25T17:38:09.741825+00:00" | 200 | "0.001000" | "408820b3-1ba2-450e-8c3c-7075f881bef8" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 45 | 40/50 | "2026-04-25T17:38:11.740772+00:00" | 200 | "0.001000" | "96def99a-1741-4f52-8860-02968e87d2b5" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 46 | 41/50 | "2026-04-25T17:38:13.599562+00:00" | 200 | "0.001000" | "d6c2e14d-58c4-4022-b25b-b33a2d32e393" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 47 | 42/50 | "2026-04-25T17:38:15.379263+00:00" | 200 | "0.001000" | "dd2bfa37-3f8a-4f09-b1a7-cbaa11f9077f" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 48 | 43/50 | "2026-04-25T17:38:17.425200+00:00" | 200 | "0.001000" | "72c2b101-e8ff-46f9-a500-541edd573462" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 49 | 44/50 | "2026-04-25T17:38:19.171954+00:00" | 200 | "0.001000" | "e81b7112-1d30-48b4-bafa-39e533d11ff4" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 50 | 45/50 | "2026-04-25T17:38:21.094861+00:00" | 200 | "0.001000" | "7fd3ec24-e2ed-4ff5-a53e-c161bdc28360" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 51 | 46/50 | "2026-04-25T17:38:23.042396+00:00" | 200 | "0.001000" | "8c3815bd-daf7-47b8-b232-d8812510a5aa" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 52 | 47/50 | "2026-04-25T17:38:25.287034+00:00" | 200 | "0.001000" | "fa9a5813-fba8-4f24-a996-1a6b3b6f8830" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 53 | 48/50 | "2026-04-25T17:38:27.438768+00:00" | 200 | "0.001000" | "3938120e-c5a5-44aa-ba17-8d965d53745f" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 54 | 49/50 | "2026-04-25T17:38:29.147991+00:00" | 200 | "0.001000" | "7ae631b1-dc0a-43be-ac96-9ee3790df923" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+| 55 | 50/50 | "2026-04-25T17:38:31.218082+00:00" | 200 | "0.001000" | "f398890d-c00b-4c71-ac60-fbec8f9722ef" | {"message": "Hello World (paid cheap view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.001"} |
+
+- Total calls: `50`
+- Success: `50`
+- Failure: `0`
+
+### Endpoint `/api/expensive/`
+
+| Log # | Attempt | Timestamp (UTC) | Status | Paid Amount (USDC) | Transaction | Response / Error |
+|---:|---|---|---|---|---|---|
+| 56 | 1/10 | "2026-04-25T17:38:33.042927+00:00" | 200 | "0.100000" | "02f0865d-d90b-4e00-9fd1-34672e7af3b1" | {"message": "Hello World (paid expensive view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.1"} |
+| 57 | 2/10 | "2026-04-25T17:38:34.924801+00:00" | 200 | "0.100000" | "7af443b4-d3fb-467b-bdbf-40786bff412f" | {"message": "Hello World (paid expensive view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.1"} |
+| 58 | 3/10 | "2026-04-25T17:38:37.030596+00:00" | 200 | "0.100000" | "596bb043-2733-4b71-8eff-8387a239810b" | {"message": "Hello World (paid expensive view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.1"} |
+| 59 | 4/10 | "2026-04-25T17:38:38.956062+00:00" | 200 | "0.100000" | "ce692b0d-36fa-4fd6-9cf3-5cd90caf75d2" | {"message": "Hello World (paid expensive view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.1"} |
+| 60 | 5/10 | "2026-04-25T17:38:40.863895+00:00" | 200 | "0.100000" | "8f427cb8-2487-45d0-94dc-93944a4fe6c2" | {"message": "Hello World (paid expensive view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.1"} |
+| 61 | 6/10 | "2026-04-25T17:38:42.942219+00:00" | 200 | "0.100000" | "92c630c6-abd6-472d-b3a1-264af71428bc" | {"message": "Hello World (paid expensive view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.1"} |
+| 62 | 7/10 | "2026-04-25T17:38:44.867812+00:00" | 200 | "0.100000" | "3aa23cf7-cc06-4235-b1d8-764629bebd46" | {"message": "Hello World (paid expensive view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.1"} |
+| 63 | 8/10 | "2026-04-25T17:38:46.949823+00:00" | 200 | "0.100000" | "0752faed-314d-4bcd-9bc4-649adbec2252" | {"message": "Hello World (paid expensive view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.1"} |
+| 64 | 9/10 | "2026-04-25T17:38:48.974241+00:00" | 200 | "0.100000" | "216d09ac-2b89-4359-88ff-59580f574e8f" | {"message": "Hello World (paid expensive view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.1"} |
+| 65 | 10/10 | "2026-04-25T17:38:50.875298+00:00" | 200 | "0.100000" | "236875f1-342d-4abc-af68-cef448c80041" | {"message": "Hello World (paid expensive view)", "status": "success", "architect": "Fabian", "payer": "0x2b37b5AdbC616AcDCFE592b26aa01FDfFaE791f8", "price_usdc": "0.1"} |
+
+- Total calls: `10`
+- Success: `10`
+- Failure: `0`
+
+### Run Summary
+
+| Started (UTC) | Finished (UTC) | Success | Failure |
+|---|---|---:|---:|
+| `2026-04-25T17:36:51.838570+00:00` | `2026-04-25T17:38:52.612526+00:00` | 65 | 0 |
+

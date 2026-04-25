@@ -171,6 +171,12 @@ Funding guidance:
 - Deposit the buyer funds into Circle Gateway, then re-run the endpoint script.
 - If you see frequent `402` responses, top up/deposit buyer funds to Gateway first.
 
+Deposit helper command:
+
+```bash
+python3 scripts/deposit_gateway.py --amount 10
+```
+
 Using the buyer wallet helper script you added:
 
 ```bash
